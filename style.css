@@ -157,6 +157,13 @@ header{
 
 /* Media Queries for Hero Section*/
 
+@media(max-width:332px){
+    .nav a{
+        padding: 0;
+        font-size: 4vw;
+    }
+}
+
 @media(max-width: 333px){
     .nav a{
         color: #000;
@@ -479,16 +486,27 @@ button{
 
    }
    
-   @media (max-width:600px){
-       .contact-form form{
-          padding: 20%;
-          display: flex;
-          flex-direction: column;
-          width: 50%;
-          margin-top: -40px;
-       }
-   
-      }
+@media (max-width:600px){
+    .contact-form form{
+        padding: 20%;
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+        margin-top: -40px;
+     }
+ 
+    }
+
+@media(max-width:350px){
+    .contact-icon{
+       width: 40%;
+       padding: 0;
+     }
+
+     .contact-icon a{
+        padding: 1px;
+    }
+}
 
 /* Footer Section */
 #footer{
